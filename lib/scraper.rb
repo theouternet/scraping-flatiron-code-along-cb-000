@@ -17,7 +17,7 @@ class Scraper
     
     self.get_courses.each do |p|
       course = Course.new
-      course.title = p.css("h2")
+      course.title = p.css("h2").text
   
   
     def print_courses
