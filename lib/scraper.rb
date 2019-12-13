@@ -16,7 +16,7 @@ class Scraper
   def make_courses 
     
     self.get_courses.each do |p|
-  
+      course.new()
   
   
     def print_courses
