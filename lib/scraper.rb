@@ -13,7 +13,7 @@ doc = Nokogiri::HTML(html)
 end
   
   def get_courses
-    doc.css(".post")
+    self.css(".post")
 
   end 
   
