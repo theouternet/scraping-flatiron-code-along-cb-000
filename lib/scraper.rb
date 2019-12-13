@@ -19,7 +19,7 @@ class Scraper
       course = Course.new
       course.title = p.css("h2").text
       course.schedule = post.css(".date").text
-      course
+      course.description = 
   
   
     def print_courses
